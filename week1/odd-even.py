@@ -13,6 +13,11 @@ odd_num = len(odd)
 even_num = len(even)
 
 sum_odd = sum(odd)
+sum_odd1 = 0
+for num in odd:
+    sum_odd1 += num
+
+greater_than_3 = [num for num in numbers if num > 3 ]
 
 print( 'even :', even)
 print( 'odd :', odd)
